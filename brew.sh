@@ -44,6 +44,7 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install useful binaries.
+brew install mas
 brew install git
 brew install wget
 
@@ -60,8 +61,8 @@ brew cask install vlc
 # rubymine, xcode, hipchat, android studio...
 
 # Install apps from appstore.
-brew mas install 'Giphy Capture', id: 668208984
-brew mas install 'Sketch', id: 402476602
+mas install 'Giphy Capture', id: 668208984
+mas install 'Sketch', id: 402476602
 
 # Remove outdated versions from the cellar.
 brew cleanup
