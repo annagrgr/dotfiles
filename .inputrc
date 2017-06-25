@@ -1,0 +1,7 @@
+# Shift + arrow to navigate by words
+"\e[1;2C": forward-word
+"\e[1;2D": backward-word
+
+# When pressing up and down arrows show  only history that matches to what is already typed
+"\e[A": history-search-backward
+"\e[B": history-search-forward
